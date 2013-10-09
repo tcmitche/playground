@@ -6,8 +6,9 @@
     },
     "testling": {
         "browsers" : [
-            "ie/8",
-            "chrome/30"
+            "ie/8..latest",
+            "chrome/20..latest",
+            "firefox/10..latest",
         ],
         "harness" : "mocha",
         "files": "tests/*.js"
