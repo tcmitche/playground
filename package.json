@@ -5,11 +5,11 @@
         "mocha": "~1.7.4"
     },
     "testling": {
-    "browsers" : [
-        "ie/8",
-        "chrome/30"
-    ],
-    "harness" : "mocha",
-    "files": "tests/*.js"
-  },
+        "browsers" : [
+            "ie/8",
+            "chrome/30"
+        ],
+        "harness" : "mocha",
+        "files": "tests/*.js"
+      }
 }
