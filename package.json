@@ -6,7 +6,7 @@
     },
     "testling": {
         "browsers" : {
-            "ie": [ 8, 9 ],
+            "ie": [ 9 ],
             "chrome": [ 22 ]
         },
         "files": "tests/*.js"
