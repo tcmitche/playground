@@ -1,16 +1,12 @@
 {
     "name": "playground",
     "version": "0.0.0",
-    "devDependencies": {
-        "mocha": "~1.13.0"
-    },
     "testling": {
         "browsers" : [
             "ie/8..latest",
             "chrome/20..latest",
-            "firefox/10..latest",
+            "firefox/10..latest"
         ],
-        "harness" : "mocha",
         "files": "tests/*.js"
     }
 }
